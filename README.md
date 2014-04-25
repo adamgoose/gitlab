@@ -4,6 +4,8 @@
 
 This Laravel API Wrapper allows users to plug into their own GitLab Instance's API seamlessly and in an Eloquent-like manner.
 
+API Documentation can be viewed [here](http://adamgoose.github.io/gitlab/master/), or for the develop branch [here](http://adamgoose.github.io/gitlab/develop/).
+
 - [Installation](#installation)
 - [Namespacing & Aliases](#namespacing)
 - [Usage](#usage)
