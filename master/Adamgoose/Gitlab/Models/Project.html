@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>Adamgoose\Gitlab\Models\Project | </title>
+                    <link rel="stylesheet" type="text/css" href="../../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../../classes.html">Classes</a></li>
+                            <li><a href="../../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../../traits.html">Traits</a></li>
+            <li><a href="../../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title"></div>
+
+            <div class="type">Class</div>
+    <h1><a href="../../../Adamgoose/Gitlab/Models.html">Adamgoose\Gitlab\Models</a>\Project</h1>
+    </div>
+        <div class="content">
+                <p>    class
+    <strong>Project</strong>        extends <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></p>
+
+    
+    
+            <h2>Properties</h2>
+
+            <table>
+                    <tr>
+                <td class="type" id="property_path">
+                    static                                        
+                </td>
+                <td>$path</td>
+                <td class="last">
+</td>
+            </tr>
+            </table>
+
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_fetch">fetch</a>($path, array $query = array())
+                    <p>
+</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Client.html#method_fetch"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_getModel">getModel</a>($model, $attributes)
+                    <p>
+</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Client.html#method_getModel"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_getModels">getModels</a>($model, $instances)
+                    <p>
+</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Client.html#method_getModels"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___construct">__construct</a>(array $attributes, $parent = null)
+                    <p>
+</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___construct"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    static&nbsp;
+                </td>
+                <td class="last">
+                    <a href="#method_find">find</a>($id)
+                    <p>
+</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_find"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_getParent">getParent</a>()
+                    <p>
+</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_getParent"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___get">__get</a>($property)
+                    <p>
+</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___get"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_toJson">toJson</a>($options)
+                    <p>
+</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_toJson"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___toString">__toString</a>()
+                    <p>
+</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___toString"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_toArray">toArray</a>()
+                    <p>
+</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_toArray"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_events">events</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_members">members</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_member">member</a>($id)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_hooks">hooks</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_hook">hook</a>($id)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_branches">branches</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_branch">branch</a>($name)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_tags">tags</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_tree">tree</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_commits">commits</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_commit">commit</a>($sha)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_snippets">snippets</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_snippet">snippet</a>($id)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_keys">keys</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_key">key</a>($id)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_issues">issues</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_issue">issue</a>($id)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_milestones">milestones</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_milestone">milestone</a>($id)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_merge_requests">merge_requests</a>()
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method_merge_request">merge_request</a>($id)
+                    <p>
+</p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method_fetch">
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Client.html#method_fetch"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a> at line 11</div>
+        <code>            public            
+    <strong>fetch</strong>($path, array $query = array())</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$path</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$query</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getModel">
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Client.html#method_getModel"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a> at line 34</div>
+        <code>            public            
+    <strong>getModel</strong>($model, $attributes)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$model</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$attributes</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getModels">
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Client.html#method_getModels"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a> at line 41</div>
+        <code>            public            
+    <strong>getModels</strong>($model, $instances)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$model</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$instances</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method___construct">
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___construct"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> at line 15</div>
+        <code>            public            
+    <strong>__construct</strong>(array $attributes, $parent = null)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>array</td>
+                <td>$attributes</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$parent</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_find">
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_find"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> at line 21</div>
+        <code>        static    public            
+    <strong>find</strong>($id)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_getParent">
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_getParent"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> at line 28</div>
+        <code>            public            
+    <strong>getParent</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method___get">
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___get"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> at line 33</div>
+        <code>            public            
+    <strong>__get</strong>($property)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$property</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_toJson">
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_toJson"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> at line 47</div>
+        <code>            public            
+    <strong>toJson</strong>($options)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$options</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method___toString">
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___toString"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> at line 52</div>
+        <code>            public            
+    <strong>__toString</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_toArray">
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_toArray"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> at line 57</div>
+        <code>            public            
+    <strong>toArray</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_events">
+        <div class="location">at line 10</div>
+        <code>            public            
+    <strong>events</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_members">
+        <div class="location">at line 15</div>
+        <code>            public            
+    <strong>members</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_member">
+        <div class="location">at line 20</div>
+        <code>            public            
+    <strong>member</strong>($id)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_hooks">
+        <div class="location">at line 25</div>
+        <code>            public            
+    <strong>hooks</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_hook">
+        <div class="location">at line 30</div>
+        <code>            public            
+    <strong>hook</strong>($id)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_branches">
+        <div class="location">at line 35</div>
+        <code>            public            
+    <strong>branches</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_branch">
+        <div class="location">at line 40</div>
+        <code>            public            
+    <strong>branch</strong>($name)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$name</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_tags">
+        <div class="location">at line 45</div>
+        <code>            public            
+    <strong>tags</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_tree">
+        <div class="location">at line 50</div>
+        <code>            public            
+    <strong>tree</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_commits">
+        <div class="location">at line 60</div>
+        <code>            public            
+    <strong>commits</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_commit">
+        <div class="location">at line 65</div>
+        <code>            public            
+    <strong>commit</strong>($sha)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$sha</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_snippets">
+        <div class="location">at line 70</div>
+        <code>            public            
+    <strong>snippets</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_snippet">
+        <div class="location">at line 75</div>
+        <code>            public            
+    <strong>snippet</strong>($id)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_keys">
+        <div class="location">at line 80</div>
+        <code>            public            
+    <strong>keys</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_key">
+        <div class="location">at line 85</div>
+        <code>            public            
+    <strong>key</strong>($id)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_issues">
+        <div class="location">at line 90</div>
+        <code>            public            
+    <strong>issues</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_issue">
+        <div class="location">at line 95</div>
+        <code>            public            
+    <strong>issue</strong>($id)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_milestones">
+        <div class="location">at line 100</div>
+        <code>            public            
+    <strong>milestones</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_milestone">
+        <div class="location">at line 105</div>
+        <code>            public            
+    <strong>milestone</strong>($id)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_merge_requests">
+        <div class="location">at line 110</div>
+        <code>            public            
+    <strong>merge_requests</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_merge_request">
+        <div class="location">at line 115</div>
+        <code>            public            
+    <strong>merge_request</strong>($id)</code>
+    </h3>
+    <div class="details">
+        <p>
+</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td></td>
+                <td>$id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>
