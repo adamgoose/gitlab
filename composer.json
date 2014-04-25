@@ -1,6 +1,7 @@
 {
     "name": "adamgoose/gitlab",
     "description": "Laravel API Wrapper for GitLab CE",
+    "license": "MIT",
     "authors": [
         {
             "name": "Adam Engebretson",
