@@ -2,5 +2,4 @@
 
 class Note extends BaseModel {
 
-
 }

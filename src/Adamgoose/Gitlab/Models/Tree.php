@@ -4,11 +4,19 @@ use Illuminate\Support\Collection;
 
 class Tree extends BaseModel {
 
+  /**
+   * Project
+   * @return Project
+   */
   public function project()
   {
     return $this->getParent();
   }
 
+  /**
+   * Tree
+   * @return Collection of Blob and Tree objects
+   */
   public function tree()
   {
     $collection = new Collection;

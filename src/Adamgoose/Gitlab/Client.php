@@ -6,8 +6,18 @@ use Illuminate\Support\Collection;
 
 class Client {
 
+  /**
+   * API
+   * @var Http
+   */
   protected $api;
 
+  /**
+   * Make API Call
+   * @param  string $path  API Path
+   * @param  array  $query Additional query parameters (optional)
+   * @return GuzzleHttp\Response
+   */
   public function fetch($path, array $query = [])
   {
     if(!($this->api instanceof Http))
@@ -16,6 +26,10 @@ class Client {
     return $this->api->get($path, ['query' => $query])->json();
   }
 
+  /**
+   * Instantiate HTTP Client
+   * @return void
+   */
   private function setupHttpClient()
   {
     $this->api = new Http([
@@ -31,6 +45,12 @@ class Client {
     ]);
   }
 
+  /**
+   * Get filled model
+   * @param  string $model      Which model to instantiate
+   * @param  array  $attributes Generally, API response
+   * @return BaseModel
+   */
   public function getModel($model, $attributes)
   {
     $model = 'Adamgoose\Gitlab\Models\\'.studly_case($model);
@@ -38,6 +58,12 @@ class Client {
     return new $model($attributes, $this);
   }
 
+  /**
+   * Get a collection of filled models
+   * @param  string $model     Which model to instantiate
+   * @param  array  $instances Generally, API response
+   * @return Collection
+   */
   public function getModels($model, $instances)
   {
     $collection = new Collection;

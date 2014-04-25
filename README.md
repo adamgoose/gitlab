@@ -105,7 +105,6 @@ The GitLab API documentation can be dound at [http://doc.gitlab.com/ce/api/READM
 - Create
 - Update
 - Delete
-- Add DocBlocks
 - Render API Documentation
 - Add Exceptions
 - Tests?
