@@ -50,4 +50,35 @@ return [
   */
   'private_token' => 'YOUR_PRIVATE_TOKEN',
 
+  /*
+  |--------------------------------------------------------------------------
+  | Class Aliases
+  |--------------------------------------------------------------------------
+  |
+  | Since the API's classes have a long and annoying namespace, and since
+  | you probably don't want to manually alias each all these yourself,
+  | I've done it here, and made it simple for you to customize them
+  |
+  */
+  'aliases' => [
+  // Alias (change)       =>  Target (don't change)
+    'Gitlab'              => 'Adamgoose\Gitlab\Client',
+    'Gitlab\Blob'         => 'Adamgoose\Gitlab\Models\Blob',
+    'Gitlab\Branch'       => 'Adamgoose\Gitlab\Models\Branch',
+    'Gitlab\Commit'       => 'Adamgoose\Gitlab\Models\Commit',
+    'Gitlab\Diff'         => 'Adamgoose\Gitlab\Models\Diff',
+    'Gitlab\Event'        => 'Adamgoose\Gitlab\Models\Event',
+    'Gitlab\Group'        => 'Adamgoose\Gitlab\Models\Group',
+    'Gitlab\Hook'         => 'Adamgoose\Gitlab\Models\Hook',
+    'Gitlab\Issue'        => 'Adamgoose\Gitlab\Models\Issue',
+    'Gitlab\Key'          => 'Adamgoose\Gitlab\Models\Key',
+    'Gitlab\MergeRequest' => 'Adamgoose\Gitlab\Models\MergeRequest',
+    'Gitlab\Milestone'    => 'Adamgoose\Gitlab\Models\Milestone',
+    'Gitlab\Note'         => 'Adamgoose\Gitlab\Models\Note',
+    'Gitlab\Project'      => 'Adamgoose\Gitlab\Models\Project',
+    'Gitlab\Snippet'      => 'Adamgoose\Gitlab\Models\Snippet',
+    'Gitlab\Tag'          => 'Adamgoose\Gitlab\Models\Tag',
+    'Gitlab\Tree'         => 'Adamgoose\Gitlab\Models\Tree',
+    'Gitlab\User'         => 'Adamgoose\Gitlab\Models\User',
+  ],
 ];

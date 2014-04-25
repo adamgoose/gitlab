@@ -31,7 +31,10 @@ class GitlabServiceProvider extends ServiceProvider {
 	{
 	  $this->package('adamgoose/gitlab');
 
-	  AliasLoader::getInstance()->alias('Project', 'Adamgoose\Gitlab\Models\Project');
+	  $aliases = $this->app['config']->get('gitlab::aliases');
+
+	  foreach($aliases as $alias => $target)
+		  AliasLoader::getInstance()->alias($alias, $target);
 	}
 
 	/**
