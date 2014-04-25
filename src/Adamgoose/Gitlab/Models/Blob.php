@@ -2,6 +2,4 @@
 
 class Blob extends BaseModel {
 
-
-  
 }
