@@ -26,7 +26,7 @@ class Client {
         ]
       ],
       'defaults' => [
-        'query' => ['private_token' => 'TWr7iJtT3WkMQmZrNZzJ']
+        'query' => ['private_token' => Config::get('gitlab::private_token')],
       ],
     ]);
   }
