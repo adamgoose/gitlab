@@ -33,11 +33,10 @@
             <table>
                     <tr>
                 <td class="type" id="property_path">
-                    static                                        
+                    static                                        string
                 </td>
                 <td>$path</td>
-                <td class="last">
-</td>
+                <td class="last">Path for use in find() method</td>
             </tr>
             </table>
 
@@ -47,34 +46,31 @@
             <table>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Adamgoose\Gitlab\GuzzleHttp\Response">Response</abbr>
                 </td>
                 <td class="last">
-                    <a href="#method_fetch">fetch</a>($path, array $query = array())
-                    <p>
-</p>
+                    <a href="#method_fetch">fetch</a>(string $path, array $query = array())
+                    <p>Make API Call</p>
                 </td>
                 <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Client.html#method_fetch"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a></small></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Adamgoose\Gitlab\BaseModel">BaseModel</abbr>
                 </td>
                 <td class="last">
-                    <a href="#method_getModel">getModel</a>($model, $attributes)
-                    <p>
-</p>
+                    <a href="#method_getModel">getModel</a>(string $model, array $attributes)
+                    <p>Get filled model</p>
                 </td>
                 <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Client.html#method_getModel"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a></small></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
-                    <a href="#method_getModels">getModels</a>($model, $instances)
-                    <p>
-</p>
+                    <a href="#method_getModels">getModels</a>(string $model, array $instances)
+                    <p>Get a collection of filled models</p>
                 </td>
                 <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Client.html#method_getModels"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a></small></td>
             </tr>
@@ -83,7 +79,7 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method___construct">__construct</a>(array $attributes, $parent = null)
+                    <a href="#method___construct">__construct</a>(array $attributes, <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> $parent = null)
                     <p>
 </p>
                 </td>
@@ -91,298 +87,271 @@
             </tr>
                     <tr>
                 <td class="type">
-                    static&nbsp;
+                    static&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_find">find</a>($id)
-                    <p>
-</p>
+                    <a href="#method_find">find</a>(int $id)
+                    <p>Lookup by ID</p>
                 </td>
                 <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_find"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a>
                 </td>
                 <td class="last">
                     <a href="#method_getParent">getParent</a>()
-                    <p>
-</p>
+                    <p>Get Parent</p>
                 </td>
                 <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_getParent"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    mixed
                 </td>
                 <td class="last">
-                    <a href="#method___get">__get</a>($property)
-                    <p>
-</p>
+                    <a href="#method___get">__get</a>(string $property)
+                    <p>Dynamically Get Attributes</p>
                 </td>
                 <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___get"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    string
                 </td>
                 <td class="last">
-                    <a href="#method_toJson">toJson</a>($options)
-                    <p>
-</p>
+                    <a href="#method_toJson">toJson</a>(integer $options)
+                    <p>Cast Attributes to JSON</p>
                 </td>
                 <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_toJson"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    string
                 </td>
                 <td class="last">
                     <a href="#method___toString">__toString</a>()
-                    <p>
-</p>
+                    <p>Cast Attributes to String (JSON)</p>
                 </td>
                 <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___toString"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    array
                 </td>
                 <td class="last">
                     <a href="#method_toArray">toArray</a>()
-                    <p>
-</p>
+                    <p>Cast Attributes to Array</p>
                 </td>
                 <td><small>from&nbsp;<a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_toArray"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></small></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_events">events</a>()
-                    <p>
-</p>
+                    <p>Events</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_members">members</a>()
-                    <p>
-</p>
+                    <p>Members</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Adamgoose\Gitlab\Models\Member">Member</abbr>
                 </td>
                 <td class="last">
-                    <a href="#method_member">member</a>($id)
-                    <p>
-</p>
+                    <a href="#method_member">member</a>(int $id)
+                    <p>Member</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_hooks">hooks</a>()
-                    <p>
-</p>
+                    <p>Hooks</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../../Adamgoose/Gitlab/Models/Hook.html"><abbr title="Adamgoose\Gitlab\Models\Hook">Hook</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_hook">hook</a>($id)
-                    <p>
-</p>
+                    <a href="#method_hook">hook</a>(int $id)
+                    <p>Hook</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_branches">branches</a>()
-                    <p>
-</p>
+                    <p>Branches</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../../Adamgoose/Gitlab/Models/Branch.html"><abbr title="Adamgoose\Gitlab\Models\Branch">Branch</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_branch">branch</a>($name)
-                    <p>
-</p>
+                    <a href="#method_branch">branch</a>(string $name)
+                    <p>Branch</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_tags">tags</a>()
-                    <p>
-</p>
+                    <p>Tags</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_tree">tree</a>()
-                    <p>
-</p>
+                    <p>Tree</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_commits">commits</a>()
-                    <p>
-</p>
+                    <p>Commits</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../../Adamgoose/Gitlab/Models/Commit.html"><abbr title="Adamgoose\Gitlab\Models\Commit">Commit</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_commit">commit</a>($sha)
-                    <p>
-</p>
+                    <a href="#method_commit">commit</a>(string $sha)
+                    <p>Commit</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_snippets">snippets</a>()
-                    <p>
-</p>
+                    <p>Snippets</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../../Adamgoose/Gitlab/Models/Snippet.html"><abbr title="Adamgoose\Gitlab\Models\Snippet">Snippet</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_snippet">snippet</a>($id)
-                    <p>
-</p>
+                    <a href="#method_snippet">snippet</a>(int $id)
+                    <p>Snippet</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_keys">keys</a>()
-                    <p>
-</p>
+                    <p>Keys</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../../Adamgoose/Gitlab/Models/Key.html"><abbr title="Adamgoose\Gitlab\Models\Key">Key</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_key">key</a>($id)
-                    <p>
-</p>
+                    <a href="#method_key">key</a>(int $id)
+                    <p>Key</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_issues">issues</a>()
-                    <p>
-</p>
+                    <p>Issues</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../../Adamgoose/Gitlab/Models/Issue.html"><abbr title="Adamgoose\Gitlab\Models\Issue">Issue</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_issue">issue</a>($id)
-                    <p>
-</p>
+                    <a href="#method_issue">issue</a>(int $id)
+                    <p>Issue</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_milestones">milestones</a>()
-                    <p>
-</p>
+                    <p>Milestones</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../../Adamgoose/Gitlab/Models/Milestone.html"><abbr title="Adamgoose\Gitlab\Models\Milestone">Milestone</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_milestone">milestone</a>($id)
-                    <p>
-</p>
+                    <a href="#method_milestone">milestone</a>(int $id)
+                    <p>Milestone</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <abbr title="Illuminate\Support\Collection">Collection</abbr>
                 </td>
                 <td class="last">
                     <a href="#method_merge_requests">merge_requests</a>()
-                    <p>
-</p>
+                    <p>Merge Requests</p>
                 </td>
                 <td></td>
             </tr>
                     <tr>
                 <td class="type">
-                    
+                    <a href="../../../Adamgoose/Gitlab/Models/MergeRequest.html"><abbr title="Adamgoose\Gitlab\Models\MergeRequest">MergeRequest</abbr></a>
                 </td>
                 <td class="last">
-                    <a href="#method_merge_request">merge_request</a>($id)
-                    <p>
-</p>
+                    <a href="#method_merge_request">merge_request</a>(int $id)
+                    <p>Merge Request</p>
                 </td>
                 <td></td>
             </tr>
@@ -392,13 +361,12 @@
         <h2>Details</h2>
 
                         <h3 id="method_fetch">
-        <div class="location">in <a href="../../../Adamgoose/Gitlab/Client.html#method_fetch"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Client.php#L11" target="_blank">at line 11</a></div>
-        <code>            public            
-    <strong>fetch</strong>($path, array $query = array())</code>
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Client.html#method_fetch"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Client.php#L21" target="_blank">at line 21</a></div>
+        <code>            public            <abbr title="Adamgoose\Gitlab\GuzzleHttp\Response">Response</abbr>
+    <strong>fetch</strong>(string $path, array $query = array())</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Make API Call</p>
         <p>
 </p>
         <div class="tags">
@@ -406,33 +374,40 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$path</td>
-                <td>
-</td>
+                <td>API Path</td>
             </tr>
                     <tr>
                 <td>array</td>
                 <td>$query</td>
-                <td>
-</td>
+                <td>Additional query parameters (optional)</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Adamgoose\Gitlab\GuzzleHttp\Response">Response</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getModel">
-        <div class="location">in <a href="../../../Adamgoose/Gitlab/Client.html#method_getModel"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Client.php#L34" target="_blank">at line 34</a></div>
-        <code>            public            
-    <strong>getModel</strong>($model, $attributes)</code>
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Client.html#method_getModel"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Client.php#L54" target="_blank">at line 54</a></div>
+        <code>            public            <abbr title="Adamgoose\Gitlab\BaseModel">BaseModel</abbr>
+    <strong>getModel</strong>(string $model, array $attributes)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Get filled model</p>
         <p>
 </p>
         <div class="tags">
@@ -440,33 +415,40 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$model</td>
-                <td>
-</td>
+                <td>Which model to instantiate</td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$attributes</td>
-                <td>
-</td>
+                <td>Generally, API response</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Adamgoose\Gitlab\BaseModel">BaseModel</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getModels">
-        <div class="location">in <a href="../../../Adamgoose/Gitlab/Client.html#method_getModels"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Client.php#L41" target="_blank">at line 41</a></div>
-        <code>            public            
-    <strong>getModels</strong>($model, $instances)</code>
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Client.html#method_getModels"><abbr title="Adamgoose\Gitlab\Client">Client</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Client.php#L67" target="_blank">at line 67</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
+    <strong>getModels</strong>(string $model, array $instances)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Get a collection of filled models</p>
         <p>
 </p>
         <div class="tags">
@@ -474,29 +456,37 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$model</td>
-                <td>
-</td>
+                <td>Which model to instantiate</td>
             </tr>
                     <tr>
-                <td></td>
+                <td>array</td>
                 <td>$instances</td>
-                <td>
-</td>
+                <td>Generally, API response</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method___construct">
-        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___construct"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L15" target="_blank">at line 15</a></div>
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___construct"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L27" target="_blank">at line 27</a></div>
         <code>            public            
-    <strong>__construct</strong>(array $attributes, $parent = null)</code>
+    <strong>__construct</strong>(array $attributes, <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> $parent = null)</code>
     </h3>
     <div class="details">
         <p>
@@ -510,14 +500,12 @@
                     <tr>
                 <td>array</td>
                 <td>$attributes</td>
-                <td>
-</td>
+                <td>Model Attributes</td>
             </tr>
                     <tr>
-                <td></td>
+                <td><a href="../../../Adamgoose/Gitlab/Models/BaseModel.html"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></td>
                 <td>$parent</td>
-                <td>
-</td>
+                <td>Parent Model</td>
             </tr>
             </table>
 
@@ -528,13 +516,12 @@
     </div>
 
                 <h3 id="method_find">
-        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_find"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L21" target="_blank">at line 21</a></div>
-        <code>        static    public            
-    <strong>find</strong>($id)</code>
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_find"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L38" target="_blank">at line 38</a></div>
+        <code>        static    public            <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a>
+    <strong>find</strong>(int $id)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Lookup by ID</p>
         <p>
 </p>
         <div class="tags">
@@ -542,44 +529,59 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>int</td>
                 <td>$id</td>
-                <td>
-</td>
+                <td>ID of desired model</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Adamgoose/Gitlab/Models/BaseModel.html"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></td>
+            <td>Model Instance</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_getParent">
-        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_getParent"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L28" target="_blank">at line 28</a></div>
-        <code>            public            
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_getParent"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L49" target="_blank">at line 49</a></div>
+        <code>            public            <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a>
     <strong>getParent</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Get Parent</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Adamgoose/Gitlab/Models/BaseModel.html"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a></td>
+            <td>Parent Model</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method___get">
-        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___get"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L33" target="_blank">at line 33</a></div>
-        <code>            public            
-    <strong>__get</strong>($property)</code>
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___get"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L59" target="_blank">at line 59</a></div>
+        <code>            public            mixed
+    <strong>__get</strong>(string $property)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Dynamically Get Attributes</p>
         <p>
 </p>
         <div class="tags">
@@ -587,27 +589,35 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$property</td>
-                <td>
-</td>
+                <td>Desired Attribute</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_toJson">
-        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_toJson"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L47" target="_blank">at line 47</a></div>
-        <code>            public            
-    <strong>toJson</strong>($options)</code>
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_toJson"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L78" target="_blank">at line 78</a></div>
+        <code>            public            string
+    <strong>toJson</strong>(integer $options)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Cast Attributes to JSON</p>
         <p>
 </p>
         <div class="tags">
@@ -615,95 +625,134 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>integer</td>
                 <td>$options</td>
-                <td>
-</td>
+                <td>Options</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>JSON Encoded Model</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method___toString">
-        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___toString"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L52" target="_blank">at line 52</a></div>
-        <code>            public            
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method___toString"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L87" target="_blank">at line 87</a></div>
+        <code>            public            string
     <strong>__toString</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Cast Attributes to String (JSON)</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>string</td>
+            <td>JSON Encoded Model</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_toArray">
-        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_toArray"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L57" target="_blank">at line 57</a></div>
-        <code>            public            
+        <div class="location">in <a href="../../../Adamgoose/Gitlab/Models/BaseModel.html#method_toArray"><abbr title="Adamgoose\Gitlab\Models\BaseModel">BaseModel</abbr></a> <a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/BaseModel.php#L96" target="_blank">at line 96</a></div>
+        <code>            public            array
     <strong>toArray</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Cast Attributes to Array</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>array</td>
+            <td>Attributes</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_events">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L10" target="_blank">at line 10</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L18" target="_blank">at line 18</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>events</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Events</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Event objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_members">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L15" target="_blank">at line 15</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L27" target="_blank">at line 27</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>members</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Members</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Member objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_member">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L20" target="_blank">at line 20</a></div>
-        <code>            public            
-    <strong>member</strong>($id)</code>
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L37" target="_blank">at line 37</a></div>
+        <code>            public            <abbr title="Adamgoose\Gitlab\Models\Member">Member</abbr>
+    <strong>member</strong>(int $id)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Member</p>
         <p>
 </p>
         <div class="tags">
@@ -711,7 +760,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>int</td>
                 <td>$id</td>
                 <td>
 </td>
@@ -719,36 +768,53 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Adamgoose\Gitlab\Models\Member">Member</abbr></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_hooks">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L25" target="_blank">at line 25</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L46" target="_blank">at line 46</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>hooks</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Hooks</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Hook objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_hook">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L30" target="_blank">at line 30</a></div>
-        <code>            public            
-    <strong>hook</strong>($id)</code>
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L56" target="_blank">at line 56</a></div>
+        <code>            public            <a href="../../../Adamgoose/Gitlab/Models/Hook.html"><abbr title="Adamgoose\Gitlab\Models\Hook">Hook</abbr></a>
+    <strong>hook</strong>(int $id)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Hook</p>
         <p>
 </p>
         <div class="tags">
@@ -756,7 +822,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>int</td>
                 <td>$id</td>
                 <td>
 </td>
@@ -764,36 +830,53 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Adamgoose/Gitlab/Models/Hook.html"><abbr title="Adamgoose\Gitlab\Models\Hook">Hook</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_branches">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L35" target="_blank">at line 35</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L65" target="_blank">at line 65</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>branches</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Branches</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Branch objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_branch">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L40" target="_blank">at line 40</a></div>
-        <code>            public            
-    <strong>branch</strong>($name)</code>
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L75" target="_blank">at line 75</a></div>
+        <code>            public            <a href="../../../Adamgoose/Gitlab/Models/Branch.html"><abbr title="Adamgoose\Gitlab\Models\Branch">Branch</abbr></a>
+    <strong>branch</strong>(string $name)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Branch</p>
         <p>
 </p>
         <div class="tags">
@@ -801,7 +884,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$name</td>
                 <td>
 </td>
@@ -809,70 +892,103 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Adamgoose/Gitlab/Models/Branch.html"><abbr title="Adamgoose\Gitlab\Models\Branch">Branch</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_tags">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L45" target="_blank">at line 45</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L84" target="_blank">at line 84</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>tags</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Tags</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Tag objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_tree">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L50" target="_blank">at line 50</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L93" target="_blank">at line 93</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>tree</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Tree</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Blob and Tree objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_commits">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L60" target="_blank">at line 60</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L107" target="_blank">at line 107</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>commits</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Commits</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Commit objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_commit">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L65" target="_blank">at line 65</a></div>
-        <code>            public            
-    <strong>commit</strong>($sha)</code>
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L117" target="_blank">at line 117</a></div>
+        <code>            public            <a href="../../../Adamgoose/Gitlab/Models/Commit.html"><abbr title="Adamgoose\Gitlab\Models\Commit">Commit</abbr></a>
+    <strong>commit</strong>(string $sha)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Commit</p>
         <p>
 </p>
         <div class="tags">
@@ -880,7 +996,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>string</td>
                 <td>$sha</td>
                 <td>
 </td>
@@ -888,36 +1004,53 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Adamgoose/Gitlab/Models/Commit.html"><abbr title="Adamgoose\Gitlab\Models\Commit">Commit</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_snippets">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L70" target="_blank">at line 70</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L126" target="_blank">at line 126</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>snippets</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Snippets</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Snippet objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_snippet">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L75" target="_blank">at line 75</a></div>
-        <code>            public            
-    <strong>snippet</strong>($id)</code>
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L136" target="_blank">at line 136</a></div>
+        <code>            public            <a href="../../../Adamgoose/Gitlab/Models/Snippet.html"><abbr title="Adamgoose\Gitlab\Models\Snippet">Snippet</abbr></a>
+    <strong>snippet</strong>(int $id)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Snippet</p>
         <p>
 </p>
         <div class="tags">
@@ -925,7 +1058,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>int</td>
                 <td>$id</td>
                 <td>
 </td>
@@ -933,36 +1066,53 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Adamgoose/Gitlab/Models/Snippet.html"><abbr title="Adamgoose\Gitlab\Models\Snippet">Snippet</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_keys">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L80" target="_blank">at line 80</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L145" target="_blank">at line 145</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>keys</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Keys</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Key objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_key">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L85" target="_blank">at line 85</a></div>
-        <code>            public            
-    <strong>key</strong>($id)</code>
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L155" target="_blank">at line 155</a></div>
+        <code>            public            <a href="../../../Adamgoose/Gitlab/Models/Key.html"><abbr title="Adamgoose\Gitlab\Models\Key">Key</abbr></a>
+    <strong>key</strong>(int $id)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Key</p>
         <p>
 </p>
         <div class="tags">
@@ -970,7 +1120,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>int</td>
                 <td>$id</td>
                 <td>
 </td>
@@ -978,36 +1128,53 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Adamgoose/Gitlab/Models/Key.html"><abbr title="Adamgoose\Gitlab\Models\Key">Key</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_issues">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L90" target="_blank">at line 90</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L164" target="_blank">at line 164</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>issues</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Issues</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Issue objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_issue">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L95" target="_blank">at line 95</a></div>
-        <code>            public            
-    <strong>issue</strong>($id)</code>
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L174" target="_blank">at line 174</a></div>
+        <code>            public            <a href="../../../Adamgoose/Gitlab/Models/Issue.html"><abbr title="Adamgoose\Gitlab\Models\Issue">Issue</abbr></a>
+    <strong>issue</strong>(int $id)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Issue</p>
         <p>
 </p>
         <div class="tags">
@@ -1015,44 +1182,60 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>int</td>
                 <td>$id</td>
-                <td>
-</td>
+                <td>Global ID, not relative ID</td>
             </tr>
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Adamgoose/Gitlab/Models/Issue.html"><abbr title="Adamgoose\Gitlab\Models\Issue">Issue</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_milestones">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L100" target="_blank">at line 100</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L183" target="_blank">at line 183</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>milestones</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Milestones</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of Milestone objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_milestone">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L105" target="_blank">at line 105</a></div>
-        <code>            public            
-    <strong>milestone</strong>($id)</code>
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L193" target="_blank">at line 193</a></div>
+        <code>            public            <a href="../../../Adamgoose/Gitlab/Models/Milestone.html"><abbr title="Adamgoose\Gitlab\Models\Milestone">Milestone</abbr></a>
+    <strong>milestone</strong>(int $id)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Milestone</p>
         <p>
 </p>
         <div class="tags">
@@ -1060,7 +1243,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>int</td>
                 <td>$id</td>
                 <td>
 </td>
@@ -1068,36 +1251,53 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Adamgoose/Gitlab/Models/Milestone.html"><abbr title="Adamgoose\Gitlab\Models\Milestone">Milestone</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_merge_requests">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L110" target="_blank">at line 110</a></div>
-        <code>            public            
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L202" target="_blank">at line 202</a></div>
+        <code>            public            <abbr title="Illuminate\Support\Collection">Collection</abbr>
     <strong>merge_requests</strong>()</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Merge Requests</p>
         <p>
 </p>
         <div class="tags">
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Illuminate\Support\Collection">Collection</abbr></td>
+            <td>of MergeRequest objects</td>
+        </tr>
+    </table>
+
             
             
                     </div>
     </div>
 
                 <h3 id="method_merge_request">
-        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L115" target="_blank">at line 115</a></div>
-        <code>            public            
-    <strong>merge_request</strong>($id)</code>
+        <div class="location"><a href="https://github.com/adamgoose/gitlab/blob/master/src/Adamgoose/Gitlab/Models/Project.php#L212" target="_blank">at line 212</a></div>
+        <code>            public            <a href="../../../Adamgoose/Gitlab/Models/MergeRequest.html"><abbr title="Adamgoose\Gitlab\Models\MergeRequest">MergeRequest</abbr></a>
+    <strong>merge_request</strong>(int $id)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
+        <p>Merge Request</p>
         <p>
 </p>
         <div class="tags">
@@ -1105,7 +1305,7 @@
 
                     <table>
                     <tr>
-                <td></td>
+                <td>int</td>
                 <td>$id</td>
                 <td>
 </td>
@@ -1113,6 +1313,16 @@
             </table>
 
             
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><a href="../../../Adamgoose/Gitlab/Models/MergeRequest.html"><abbr title="Adamgoose\Gitlab\Models\MergeRequest">MergeRequest</abbr></a></td>
+            <td>
+</td>
+        </tr>
+    </table>
+
             
             
                     </div>
